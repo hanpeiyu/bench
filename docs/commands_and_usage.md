@@ -37,7 +37,7 @@ You can also run the parts of the bench selectively.
 
 * Add apps
 
-	The get-app command gets remote frappe apps from a remote git repository and installs them. Example: [erpnext](https://github.com/frappe/erpnext)
+	The get-app command gets remote frappe apps from a remote git repository and installs them. Example: [erpnext](https://github.com/hanpeiyu/erpnext)
 
 		bench get-app erpnext https://github.com/frappe/erpnext
 

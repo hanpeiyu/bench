@@ -93,7 +93,7 @@ def remove_from_excluded_apps_txt(app, bench_path='.'):
 def get_app(git_url, branch=None, bench_path='.', skip_assets=False, verbose=False, restart_bench=True, overwrite=False):
 	if not os.path.exists(git_url):
 		if not is_git_url(git_url):
-			orgs = ['frappe', 'erpnext']
+			orgs = ['hanpeiyu']
 			for org in orgs:
 				url = 'https://api.github.com/repos/{org}/{app}'.format(org=org, app=git_url)
 				res = requests.get(url)

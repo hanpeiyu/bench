@@ -138,7 +138,7 @@ The setup commands used for setting up the Frappe environment in context of the 
  - **socketio**: Setup node dependencies for socketio server
  - **requirements**: Setup Python and Node dependencies
 
- - **manager**: Setup `bench-manager.local` site with the [Bench Manager](https://github.com/frappe/bench_manager) app, a GUI for bench installed on it.
+ - **manager**: Setup `bench-manager.local` site with the [Bench Manager](https://github.com/hanpeiyu/bench_manager) app, a GUI for bench installed on it.
 
  - **procfile**: Generate Procfile for bench start
 
